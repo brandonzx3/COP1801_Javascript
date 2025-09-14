@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Dog Objects</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            .dog-card {
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+                padding: 20px;
+                margin: 20px auto;
+                max-width: 600px;
+                transition: transform 0.2s ease-in-out;
+            }
+
+            .dog-card:hover {
+                transform: scale(1.02);
+            }
+
+            #dogLiteral {
+                border-left: 5px solid #4CAF50;
+            }
+
+            #dogConstructor {
+                border-left: 5px solid #2196F3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="dog-literal" class="dog-card"></div>
+        <div id="dog-constructor" class="dog-card"></div> 
+
+        <script src="main.js"></script>
+    </body>
+</html>
